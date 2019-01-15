@@ -1,15 +1,3 @@
-/**
- Basic demonstration of using a gamepad.
- 
- When this sketch runs it will try and find
- a game device that matches the configuration
- file 'gamepad' if it can't match this device
- then it will present you with a list of devices
- you might try and use.
- 
- The chosen device requires 3 sliders and 2 button.
- */
-
 import org.gamecontrolplus.gui.*;
 import org.gamecontrolplus.*;
 import net.java.games.input.*;
@@ -23,9 +11,7 @@ float RstickPosX, RstickPosY;
 float upBtnSize;
 
 float StickRotRad = 80, stickRotSize = StickRotRad * 2;
-//float browSize =  stickRotSize * 1.2f, browFactor;
 float stickRad = 42, stickSize = stickRad * 2;
-//float lidPos, restLid = PI * 0.3f, minLid = restLid/1.5f, maxLid = PI * 0.92f;
 
 public void setup() {
   size(1000, 600);
@@ -60,7 +46,6 @@ public void draw() {
   RstickPosX =  0.9f * map(gpad.getSlider("XPOSR").getValue(), -1, 1, -(StickRotRad - stickRad), StickRotRad - stickRad);
   RstickPosY =  0.9f * map(gpad.getSlider("YPOSR").getValue(), -1, 1, -(StickRotRad - stickRad), StickRotRad - stickRad);
   
-  // DRaw a pir of eyes
   drawLeftStick(width/2 - 100, 500);
   drawRightStick(width/2 + 100, 500);
   
