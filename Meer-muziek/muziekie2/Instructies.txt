@@ -1,0 +1,4 @@
+Druk 1, 2 of 3 in om te tekenen
+1: rood - cirkel
+2: groen - vierkant
+3: blauw - punten

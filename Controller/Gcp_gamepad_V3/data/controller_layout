@@ -1,0 +1,19 @@
+controller layout
+XPOSL	Stick X position Left	3	SLIDER	X-as	0	1.0	0.15
+YPOSL	Stick Y Position Left	3	SLIDER	Y-as	0	1.0	0.15
+XPOSR	Stick X position Right	3	SLIDER	Z-as	0	1.0	0.15
+YPOSR	Stick Y Position Right	3	SLIDER	Z-draaiing	0	1.0	0.15
+Vierkant	Vierkant      	1	BUTTON	Knop 0	0	0.0	0.0
+Kruis	        Kruis         	1	BUTTON	Knop 1	0	0.0	0.0
+Rond	        Rond      	1	BUTTON	Knop 2	0	0.0	0.0
+Driehoek	Driehoek      	1	BUTTON	Knop 3	0	0.0	0.0
+L1		L1       	1	BUTTON	Knop 19	0	0.0	0.0
+R1		R1      	1	BUTTON	Knop 30	0	0.0	0.0
+L2		L2      	1	BUTTON	Knop 6	0	0.0	0.0
+R2		R2      	1	BUTTON	Knop 7	0	0.0	0.0
+Share		Share      	1	BUTTON	Knop 8	0	0.0	0.0
+Options		Options      	1	BUTTON	Knop 9	0	0.0	0.0
+L3		L3      	1	BUTTON	Knop 10	0	0.0	0.0
+R3		R3      	1	BUTTON	Knop 11	0	0.0	0.0
+PSbtn		PSbtn      	1	BUTTON	Knop 12	0	0.0	0.0
+Touchpad	Touchpad      	1	BUTTON	Knop 13	0	0.0	0.0

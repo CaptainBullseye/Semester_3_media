@@ -1,0 +1,8 @@
+Eyes controller
+XPOSL	Pupil X position Left	3	SLIDER	X-as	0	1.0	0.15
+YPOSL	Pupil Y Position Left	3	SLIDER	Y-as	0	1.0	0.15
+XPOSR	Pupil X position Right	3	SLIDER	Z-as	0	1.0	0.15
+YPOSR	Pupil Y Position Right	3	SLIDER	Z-as	0	1.0	0.15
+EYELID	Eye lid & brow position	3	SLIDER	Z-draaiing	0	1.0	0.2
+PUPILSIZE1	Pupil size	1	BUTTON	Knop 4	0	0.0	0.0
+PUPILSIZE2	Pupil size	1	BUTTON	Knop 5	0	0.0	0.0
